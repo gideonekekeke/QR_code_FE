@@ -1,0 +1,48 @@
+.card {
+	font-family: "Outfit", sans-serif;
+	height: 420px;
+	width: 270px;
+	background-color: hsl(0, 0%, 100%);
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.image-holder {
+	height: 300px;
+	width: 100%;
+	background-color: silver;
+	border-radius: 10px;
+}
+
+.image-holder > img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.title {
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	padding-bottom: 0;
+	padding-bottom: 0;
+}
+
+.description {
+	font-size: 15px;
+	color: hsl(220, 15%, 55%);
+	margin-top: 5px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	flex-direction: column;
+}
